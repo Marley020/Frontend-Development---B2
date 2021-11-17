@@ -40,12 +40,12 @@ link naar de website die ik na ga maken:
 https://www.maha-amsterdam.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-maha homepage  
+Maha Home Page  
 <img src="images/homepage.PNG" width="375px" alt="homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Maha Footwear Page  
+<img src="images/footwear.PNG" width="375px" alt="footwear">
  
 </details>
 
