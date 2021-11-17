@@ -36,7 +36,7 @@ Surface Plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die ik na ga maken:
+link naar de website die ik ga namaken:
 https://www.maha-amsterdam.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
