@@ -36,11 +36,12 @@ Surface Plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+link naar de website die ik na ga maken:
+(https://www.maha-amsterdam.com "Maha Amsterdam")
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+maha homepage  
+<img src="images/homepage.PNG" width="375px" alt="homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
