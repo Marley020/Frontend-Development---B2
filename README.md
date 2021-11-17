@@ -37,7 +37,7 @@ Surface Plane
 
 ### Je opdracht:
 link naar de website die ik na ga maken:
-(https://www.maha-amsterdam.com "Maha Amsterdam")
+https://www.maha-amsterdam.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 maha homepage  
