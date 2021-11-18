@@ -45,7 +45,7 @@ Maha Home Page
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Maha Footwear Page  
-<img src="images/footwear.PNG" width="375px" alt="footwear">
+<img src="images/newarrivals.PNG" width="375px" alt="footwear">
  
 </details>
 
