@@ -41,11 +41,11 @@ https://www.patta.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Patta Home Page  
-<img src="images/homepage.PNG" width="375px" alt="homepage">
+<img src="verslagcontent/homepage.PNG" width="375px" alt="homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Patta Product Page  
-<img src="images/productpage.PNG" width="375px" alt="newarrivals">
+<img src="verslagcontent/productpage.PNG" width="375px" alt="newarrivals">
  
 </details>
 
@@ -57,13 +57,13 @@ Patta Product Page
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="verslagcontent/homepageNote.pdf" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="verslagcontent/productpageNote.pdf" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="verslagcontent/menuNote.pdf" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
