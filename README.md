@@ -37,7 +37,7 @@ Surface Plane
 
 ### Je opdracht:
 link naar de website die ik voor deze opdracht na ga maken:
-https://www.maha-amsterdam.com
+https://www.patta.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Maha Home Page  
