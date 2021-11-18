@@ -40,12 +40,12 @@ link naar de website die ik voor deze opdracht na ga maken:
 https://www.patta.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Maha Home Page  
+Patta Home Page  
 <img src="images/homepage.PNG" width="375px" alt="homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Maha Footwear Page  
-<img src="images/newarrivals.PNG" width="375px" alt="footwear">
+Patta New Arrivals Page  
+<img src="images/newarrivals.PNG" width="375px" alt="newarrivals">
  
 </details>
 
