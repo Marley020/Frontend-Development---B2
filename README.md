@@ -56,13 +56,13 @@ Patta Product Page
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
+### home page: 
 <img src="verslagcontent/homepageNote.jpg" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
+### product page: 
 <img src="verslagcontent/productpageNote.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter): 
+### dynamisch deel (menu): 
 <img src="verslagcontent/menuNote.PNG" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
