@@ -44,8 +44,8 @@ Patta Home Page
 <img src="images/homepage.PNG" width="375px" alt="homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Patta New Arrivals Page  
-<img src="images/newarrivals.PNG" width="375px" alt="newarrivals">
+Patta Product Page  
+<img src="images/productpage.PNG" width="375px" alt="newarrivals">
  
 </details>
 
