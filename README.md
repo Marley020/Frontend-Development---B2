@@ -57,13 +57,13 @@ Patta Product Page
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### home page: 
-<img src="verslagcontent/homepageNote.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="verslagcontent/week1/homepageNote.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### product page: 
-<img src="verslagcontent/productpageNote.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="verslagcontent/week1/productpageNote.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### dynamisch deel (menu): 
-<img src="verslagcontent/menuNote.PNG" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="verslagcontent/week1/menuNote.PNG" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -77,7 +77,17 @@ Patta Product Page
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+dit ging goed:
+Het beginnen met de opzet van de html en css ging over het algemeen prima en zonder al te veel moeite. 
+
+dit was lastig:
+Ik vond het best lastig om een breakdownschets te maken en te beoordelen in welke html elementen de content van de website zich precies bevindt. Ook had ik het position element te veel toegepast waardoor de structuur van de header niet klopte, dus die moest ik opnieuw indelen.
+
+### screenshot website: 
+<img src="verslagcontent/week2/screenshot" width="375px" alt="screenshotWebsite">
+
+### screenshot code: 
+<img src="verslagcontent/week2/code.png" width="375px" alt="screenshotCode">
 
 
 ### Agenda voor meeting
