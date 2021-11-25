@@ -84,7 +84,7 @@ dit was lastig:
 Ik vond het best lastig om een breakdownschets te maken en te beoordelen in welke html elementen de content van de website zich precies bevindt. Ook had ik het position element te veel toegepast waardoor de structuur van de header niet klopte, dus die moest ik opnieuw indelen.
 
 ### screenshot website: 
-<img src="verslagcontent/week2/screenshot" width="375px" alt="screenshotWebsite">
+<img src="verslagcontent/week2/screenshot.png" width="375px" alt="screenshotWebsite">
 
 ### screenshot code: 
 <img src="verslagcontent/week2/code.png" width="375px" alt="screenshotCode">
