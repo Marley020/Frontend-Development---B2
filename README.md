@@ -151,23 +151,18 @@ Daarnaast is het ook gelukt om met behulp van de screenreader alle linkjes te le
 
 
 #### Muis en Toetsenbord
-Alle links, buttons en form elementen met het toetsenbord kunnen selecteren en bedienen:
+Het bleek nog niet mogelijk om alle links, buttons en form elementen met het toetsenbord kunnen selecteren en bedienen. Er was in de console wel te zien dat het element was geselecteerd maar het was niet zichtbaar voor de gebruiker.
 
-De elementen in een logische volgorde geselecteerd:
-
-De verschillende states (hover, focus, active):
+Het is me nog niet gelukt om met behulp van de tab toets de verschillende elementen in een logische volgorde te selecteren, en de daarbij behorende states zichbaar te maken (hover, focus, active).
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
 #### Diverse beperkingen
-Hier korte omschrijving (met indien nodig een afbeelding)
 Slechte Motoriek:
+Voor gebruikers met een slechte motoriek is het van belang dat ze door de website heen kunnen navigeren met behulp van de tab toets. De elementen moeten dan ook geselecteerd kunnen worden aan de hand van een toetsenbord.
 Visuele Beperkingen:
-Concentratie Probleem:
-Spasmes/Parkinson:
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Het is voor gebruikers met een visuele beperking van belang dat er een goed contrast is tussen de verschillende elementen en licht en donkere kleuren. Daarnaast moet de website ook leesbaar zijn voor screenreaders.
 
 </details>
 
@@ -226,8 +221,12 @@ dit was lastig:
 Ik vind het soms nog wel lastig om precies te bepalen in wat voor tag een bepaald element behoord, en ik had het idee dat ik daardoor iets te lang aan het puzzelen was. Ook was het googlen naar een antwoord niet altijd even makkelijk, en kwamen er meestal te gecompliceerde oplossingen naar voren.
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
+<img src="verslagcontent/week5/hp1.png" width="375px" alt="screenshotHomepage">
+<img src="verslagcontent/week5/hp2.png" width="375px" alt="screenshotMenu">
+<img src="verslagcontent/week5/hp3.png" width="375px" alt="screenshotSearch">
+<img src="verslagcontent/week5/hp4.png" width="375px" alt="screenshotBasket">
+<img src="verslagcontent/week5/pp1.png" width="375px" alt="screenshotProductpage1">
+<img src="verslagcontent/week5/pp2.png" width="375px" alt="screenshotProductpage2">
 
 </details>
 
