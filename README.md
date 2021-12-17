@@ -188,11 +188,11 @@ dit was lastig:
 Ik had moeite met het opzetten van het hamburger menu. Elke keer als ik ging googlen naar voorbeelden kwamen er voornamelijk gecompliceerde methodes naar voren, wat voor mijn gevoel erg onnodig was. Na in de fysieke les op school hulp te hebben gehad van de studentassistent Bo, is het me gelukt om het hamburger menu te fixen en kon ik verder werken.
 
 ### screenshot website: 
-<img src="verslagcontent/week4/screenshot1" width="375px" alt="screenshotHomepage">
-<img src="verslagcontent/week4/screenshot2" width="375px" alt="screenshotMenu">
-<img src="verslagcontent/week4/screenshot3" width="375px" alt="screenshotFooter">
-<img src="verslagcontent/week4/screenshot4" width="375px" alt="screenshotProductpage">
-<img src="verslagcontent/week4/screenshot5" width="375px" alt="screenshotProductpage2">
+<img src="verslagcontent/week4/screenshot1.png" width="375px" alt="screenshotHomepage">
+<img src="verslagcontent/week4/screenshot2.png" width="375px" alt="screenshotMenu">
+<img src="verslagcontent/week4/screenshot3.png" width="375px" alt="screenshotFooter">
+<img src="verslagcontent/week4/screenshot4.png" width="375px" alt="screenshotProductpage">
+<img src="verslagcontent/week4/screenshot5.png" width="375px" alt="screenshotProductpage2">
 
 ### screenshot code: 
 <img src="verslagcontent/week4/codehtml.png" width="375px" alt="screenshotHtml">
