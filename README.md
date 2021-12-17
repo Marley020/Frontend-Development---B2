@@ -90,23 +90,13 @@ Ik vond het best lastig om een breakdownschets te maken en te beoordelen in welk
 <img src="verslagcontent/week2/code.png" width="375px" alt="screenshotCode">
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- de elementen i.p.v. met position, met flexbox positioneren
+- een productpage creëeren
+- de icoontjes vervangen door afbeeldingen i.p.v. links naar online icons
+- de footer schalen
 
 </details>
 
@@ -120,26 +110,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+dit ging goed:
+Het was me gelukt om de icoontjes te vervangen voor afbeeldingen i.p.v. links, en de samenstelling van mijn html te verbeteren. Ik was daardoor wel meer tijd kwijt dan ik in eerste instantie had verwacht, omdat ik door mijn zoveelste aanpassingen aan de html (niet alleen de icons maar ook de structuur), ook de css weer overhoop moest gooien. Uiteindelijk is het allemaal gelukt en kan ik weer verder.
 
+dit was lastig:
+Ik was nog erg aan het puzzelen met het positioneren van de items. Na het gesprek met Robert kwam ik tot de conclusie dat ik de elementen zo veel mogelijk met flexbox moet positioneren en het gebruik van (met name) negatieve margins waar kan, moet vermijden.
 
-### Agenda voor meeting
-samen met je groepje opstellen
+### screenshot website:
+<img src="verslagcontent/week3/screenshot1.jpg" width="375px" alt="screenshotWebsite">
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+<img src="verslagcontent/week3/screenshot2.jpg" width="375px" alt="screenshotWebsite">
+
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- minder gebruik maken van negatieve margins
+- positioneren met flexbox
+- footer aanpassen + form toevoegen
+- een hamburger menu maken met behulp van javascript
 
 </details>
 
@@ -153,28 +143,29 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Lijst met bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Screenreader
+De screenreader was in staat alle headings op zowel de home als product page, succesvol te lezen, in een logische structuur.
+Daarnaast is het ook gelukt om met behulp van de screenreader alle linkjes te lezen, met een duidelijk beeld waar deze voor dienen.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Muis en Toetsenbord
+Alle links, buttons en form elementen met het toetsenbord kunnen selecteren en bedienen:
+
+De elementen in een logische volgorde geselecteerd:
+
+De verschillende states (hover, focus, active):
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel nog een bevinding. 
+#### Diverse beperkingen
 Hier korte omschrijving (met indien nodig een afbeelding)
+Slechte Motoriek:
+Visuele Beperkingen:
+Concentratie Probleem:
+Spasmes/Parkinson:
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
@@ -190,26 +181,31 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+dit ging goed:
+Het uitwerken van de footer en de daarbij behorende form ging goed. Het was wel even puzzelen om de elementen op de juiste positie te krijgen maar toen ik dat eenmaal door had ging het prima. Hetzelde geld voor de productpage. Ik was wel wat extra tijd kwijt doordat ik steeds rekening hield met de vormgeving op zowel een mobile device als desktop, terwijl ik Surface Plane als focus had gekozen, dus ik realiseerde me te laat dat dit geen criteria was :').
 
+dit was lastig:
+Ik had moeite met het opzetten van het hamburger menu. Elke keer als ik ging googlen naar voorbeelden kwamen er voornamelijk gecompliceerde methodes naar voren, wat voor mijn gevoel erg onnodig was. Na in de fysieke les op school hulp te hebben gehad van de studentassistent Bo, is het me gelukt om het hamburger menu te fixen en kon ik verder werken.
 
-### Agenda voor meeting
-samen met je groepje opstellen
+### screenshot website: 
+<img src="verslagcontent/week4/screenshot1" width="375px" alt="screenshotHomepage">
+<img src="verslagcontent/week4/screenshot2" width="375px" alt="screenshotMenu">
+<img src="verslagcontent/week4/screenshot3" width="375px" alt="screenshotFooter">
+<img src="verslagcontent/week4/screenshot4" width="375px" alt="screenshotProductpage">
+<img src="verslagcontent/week4/screenshot5" width="375px" alt="screenshotProductpage2">
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+### screenshot code: 
+<img src="verslagcontent/week4/codehtml.png" width="375px" alt="screenshotHtml">
+<img src="verslagcontent/week4/codecss.png" width="375px" alt="screenshotCss">
+<img src="verslagcontent/week4/codejs.png" width="375px" alt="screenshotJs">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- het hamburger menu verder stylen
+- de items op de homepage positioneren
+- de productpage verder uitwerken
+- de toegankelijkheid punten nalopen
 
 </details>
 
@@ -223,7 +219,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+dit ging goed:
+Nu ik de smaak weer te pakken heb gaat het me gemakkelijker af. Het was inmiddels alweer een tijdje geleden dat we met Front End hebben gewerkt, waardoor het in het begin wel wat meer tijd heeft gekost om dingen uit te zoeken, hoe het allemaal ook alweer werkte. Over het algemeen ging het me best goed af, ondanks het gevoel dat ik wel wat tijd te kort kwam.
+
+dit was lastig:
+Ik vind het soms nog wel lastig om precies te bepalen in wat voor tag een bepaald element behoord, en ik had het idee dat ik daardoor iets te lang aan het puzzelen was. Ook was het googlen naar een antwoord niet altijd even makkelijk, en kwamen er meestal te gecompliceerde oplossingen naar voren.
 
 ### Screenshot(s)
 

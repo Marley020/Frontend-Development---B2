@@ -20,13 +20,13 @@
 	
 <header>
 	<section>
-		<img src="./images/bars-solid.svg">
+		<img class="menuIcon" src="./images/bars-solid.svg" alt="menuIcon">
 
 		<a href="index.html"><img src="./images/pattalogo.png.webp" class="logo" alt="headerLogo"></a>
 
 		<div>
-			<img src="./images/search-solid.svg">
-			<img src="./images/shopping-bag-solid.svg">
+			<img class="searchBar" src="./images/search-solid.svg" alt="searchBar">
+			<img class="shopCart" src="./images/shopping-bag-solid.svg" alt="shoppingBasket">
 		</div>
 	</section>
 
@@ -34,7 +34,7 @@
 		<ul>
 			<li><a href="index.html"> COMING SOON </a></li>
 			<li><a href="index.html"> NEW ARRIVALS </a></li>
-			<li><a href="index.html"> FOOTWEAR </a></li>
+			<li><a href="product.html"> FOOTWEAR </a></li>
 			<li><a href="index.html"> APPAREL </a></li>
 			<li><a href="index.html"> ACCESSORIES </a></li>
 			<li><a href="index.html"> COLLECTIONS </a></li>
@@ -43,6 +43,33 @@
 			<li><a href="index.html"> RAFFLES </a></li>
 		</ul>
 	</nav>
+
+	<nav>
+		<ul>
+			<li><a href="index.html"> COMING SOON </a></li>
+			<li><a href="index.html"> NEW ARRIVALS </a></li>
+			<li><a href="product.html"> FOOTWEAR </a></li>
+			<li><a href="index.html"> APPAREL </a></li>
+			<li><a href="index.html"> ACCESSORIES </a></li>
+			<li><a href="index.html"> COLLECTIONS </a></li>
+			<li><a href="index.html"> BRANDS </a></li>
+			<li><a href="index.html"> BLOG </a></li>
+			<li><a href="index.html"> RAFFLES </a></li>
+		</ul>
+	</nav>
+
+		<form>
+			<img src="./images/times-solid.svg" alt="exitSearch">
+			<label for="search"></label>
+			<input type="text" placeholder="Search" aria-label="Search through site">
+		</form>
+
+		<fieldset>
+			<img src="./images/times-circle-solid.svg" alt="exitBasket">
+			<legend>Your cart</legend>
+			<label>Your bag is empty</label>
+		</fieldset>
+	
 </header>
 
 
@@ -51,21 +78,26 @@
 	<main class="row">
 		<div class="first">
             <img src="images/mainimage1-aj1.png" alt="aj1retrohighOG">
-            <img src="images/mainimage2-pattaT.webp" alt="pattaTshirt">
-			<img src="images/mainimage3-pattaT.webp" alt="pattaT">
+            <img src="images/mainimage2-pattaT.webp" alt="pattaTshirtWhite">
+			<img src="images/mainimage3-pattaT.webp" alt="pattaTshirtBlack">
 		</div>
 
 	</main>
 
+
 <!-- Footer -->
 
 	<footer>
+		
 		<section>
-		<img src="./images/pattafooterlogo.jpg" class="logo2" alt="footerLogo">
-		</section>
+			<span><img src="./images/pattafooterlogo.jpg" class="logo2" alt="footerLogo"></span>
 
-		<section>
-			<h1>Subscribe to our newsletter</h1>
+			<form>
+				<br><label for="email">Subscribe to our newsletter</label><br>
+				<input type="email" id="email" name="email" placeholder="Email Address">
+			</form>
+
+
 		<ul>
 			<li>TERMS AND CONDITIONS</li>
 			<li>PRIVACY POLICY</li>
@@ -77,8 +109,8 @@
 			<li>PATTA FOUNDATION</li>
 			<li>PATTA SOUNDSYSTEM</li>
 			<li>PATTA RUNNING TEAM</li>
-		  </ul>
-		  </section>
+		</ul>
+		</section>
 
 	</footer>
 

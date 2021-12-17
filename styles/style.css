@@ -3,6 +3,13 @@
   box-sizing:border-box;  
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
 body {
   background-color: white;
 }
@@ -35,7 +42,40 @@ header section div {
   gap: 1.5em;
 }
 
-header nav ul {
+/** Header Hamburger Menu **/
+
+header > nav:first-of-type {
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  width: 20em;
+  top: 0;
+  bottom: 0;
+  left: -25em;
+  transition: 1s;
+  padding: 2em;
+}
+
+header > nav:first-of-type li {
+  list-style-type: none;
+  padding: 1em 0 0.5em 0;
+}
+
+header > nav:first-of-type li a{ 
+  color: rgb(60, 60, 60);
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header > nav.viewmenu{
+  left: 0em;
+}
+
+/** Header Nav Menu **/
+
+header > nav:nth-of-type(2) ul {
 	display: flex;
 	gap: 3em;
 	flex-wrap: nowrap;
@@ -47,17 +87,105 @@ header nav ul {
   flex-shrink: 0;
 }
 
-header nav ul li a {
+header > nav:nth-of-type(2)  ul li a {
 	white-space: nowrap;
   color: silver;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: large;
   font-weight: bold;
   text-decoration: none;
 }
 
+/** Header Search Bar **/
 
-/** Main **/
+header > form {
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  width: 25em;
+  top: 7em;
+  bottom: 0;
+  left: -25em;
+  transition: 0s;
+  padding: 1em;
+}
+
+header > form img {
+  position: fixed;
+  background-color: white;
+  margin-top: -5.5em;
+  width: 2em;
+}
+
+header > form input {
+  background-color: transparent;
+  color: gainsboro;
+  margin: 2em 0 4em 0;
+  padding: 2em 8em 1em 2em;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+
+header > form input::placeholder {
+  color: gainsboro;
+  font-family: 'Helvetica Neue' sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+header > form.viewsearch {
+  left: 0em;
+}
+
+/** Header Shopping Bag **/
+
+header > fieldset {
+  background-color: black;
+  position: fixed;
+  z-index: 10;
+  width: 25em;
+  top: 0em;
+  bottom: 0;
+  right: -25em;
+  transition: 0.5s;
+  padding: 0;
+}
+
+header > fieldset img {
+  position: fixed;
+  background-color: white;
+  margin-top: -9em;
+  margin-left: 20em;
+  width: 2em;
+}
+
+header > fieldset legend {
+  background-color: black;
+  width: 100%;
+  padding: 1em 2em 2em 1em;
+  border: none;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+}
+
+header > fieldset label {
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.875em;
+  font-weight: bold;
+  color: white;
+}
+
+header > fieldset.viewbag {
+  right: 0em;
+}
+
+
+/** Index Main **/
 
 .row {
   display: flex;
@@ -75,48 +203,167 @@ main div img {
   padding: 1em 0em 1em 0em;
 }
 
-@media  and (max-width: 700px) {
+@media screen and (min-width: 700px) {
   .row {
     flex-direction: column;
   }
-  
 }
 
 
+/** Product Main **/
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 0 0 0;
+}
+
+.productview {
+  flex: 50%;
+  max-width: 50%;
+  padding: 1em 0 0 0;
+}
+
+.productview h1 {
+  position: absolute;
+  box-sizing: border-box;
+  margin: -1.1em 0.7em 0 0.7em;
+  background-color: transparent;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 2.5em;
+  font-stretch: condensed;
+  color: rgb(60, 60, 60);
+}
+
+.productview img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -1.7em;
+}
+
+@media screen and (max-width: 600px) {
+  .productview {
+    flex:100%;
+    max-width: 100%;
+  }
+}
+
+/** Product Main Info **/
+
+.productinfo {
+  flex: 50%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0 1em 2em;
+  margin: 1em 0 1em -2em;
+}
+
+.productinfo h2 {
+  display: inline;
+  font-family: 'Helvetica Neue' sans-serif;
+  font-weight: lighter;
+  color: rgb(60, 60, 60);
+  margin: 1em 0 1em 1.2em;
+}
+
+.productinfo details {
+  border: none;
+  padding: 1em 1em 1em 1em;
+}
+
+.productinfo details summary {
+  display: inline;
+  border-bottom: 1px solid silver;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  width: 20em;
+  margin: 0 0 0 0.5em;
+  padding: 0.5em 0.5em 1em 0.5em;
+}
+
+.productinfo details p {
+  display: inline-block;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: rgb(60, 60, 60);
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.productinfo details ul {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: rgb(60, 60, 60);
+  list-style-type: circle;
+  margin-left: 2em;
+}
+
+.payment {
+  display: inline-block
+}
+
+.payment img {
+  width: 2.5em;
+}
 
 
 /** Footer **/
 
 footer {
   display: flex;
-  padding: 2em 2em;
+  padding: 4em 2em 4em 4em;
   background: black;
+  margin: 0 -0.5em -1em -1em;
 }
 
 footer section {
-  flex: 50%;
-  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+footer section span {
+  display: flex;
+  justify-content: center;
+  margin-left: -1em;
+  margin-bottom: 1em;
 }
 
 .logo2 {
-  display: flex;
-  justify-content: center;
-  width: 10em;
+  width: 12em;
 }
 
-footer section h1 {
+footer section form label {
   color: white;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: x-large;
   font-weight: bold;
+  padding: 2em 0 0 0;
+}
+
+footer section form input {
+  background-color: transparent;
+  color: silver;
+  margin: 2em 0 4em 0;
+  padding: 0 8em 4em 0;
+  border: none;
+  border-bottom: 1px solid silver;
+}
+
+footer section ul {
+  margin: 0;
+  padding: 0;
 }
 
 footer section ul li {
   display: flex;
   list-style-type: none;
   color: whitesmoke;
-  font-family: 'Cabin', sans-serif;
-  font-size: large;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: medium;
   font-weight: bold;
   text-decoration: none;
+  margin: 0 0 1em 0;
+  transition: .5s;
+}
+
+footer section ul li:hover{
+  color: red;
 }
