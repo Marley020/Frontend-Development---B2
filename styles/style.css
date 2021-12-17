@@ -10,6 +10,21 @@
   outline: 0;
 }
 
+*:focus {
+  outline: 4px solid lightskyblue;
+  padding: 2px;
+}
+
+*:hover {
+  outline: 4px solid lightgreen;
+  padding: 2px;
+}
+
+*:active {
+  outline: 4px solid lightseagreen;
+  padding: 2px;
+}
+
 body {
   background-color: white;
 }

@@ -239,10 +239,16 @@ Ik vind het soms nog wel lastig om precies te bepalen in wat voor tag een bepaal
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+2. https://css-tricks.com/typography-for-developers/
+3. https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en
+4. https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+5. https://fontawesome.com
+6. https://www.w3schools.com/css/css_selectors.asp
+7. https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
+8. https://noti.st/ericwbailey/TcMJFP#sHNpn1m
+9. https://www.w3schools.com/tags/default.asp
+10. https://www.w3schools.com/css/css_howto.asp
+11. https://www.w3schools.com/html/html_examples.asp
 
 </details>
