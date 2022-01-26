@@ -50,6 +50,7 @@ header section div {
   gap: 1.5em;
 }
 
+
 /** Header Hamburger Menu **/
 
 header > nav:first-of-type {
@@ -81,6 +82,7 @@ header > nav.viewmenu{
   left: 0em;
 }
 
+
 /** Header Nav Menu **/
 
 header > nav:nth-of-type(2) ul {
@@ -103,6 +105,7 @@ header > nav:nth-of-type(2)  ul li a {
   font-weight: var(--main-font-weight);
   text-decoration: none;
 }
+
 
 /** Header Search Bar **/
 
@@ -144,6 +147,7 @@ header > form input::placeholder {
 header > form.viewsearch {
   left: 0em;
 }
+
 
 /** Header Shopping Bag **/
 
@@ -273,6 +277,7 @@ main div p a:hover {
   }
 }
 
+
 /** Product Main Info **/
 
 .productinfo {
@@ -287,10 +292,88 @@ main div p a:hover {
 .productinfo h2 {
   display: inline;
   font-family: var(--main-font);
-  font-weight: lighter;
+  font-weight: 400;
   color: var(--clr-font-main);
   margin: 1em 0 1em 1.2em;
 }
+
+
+/** Size Selector **/
+
+select {
+  box-shadow: 0 0 25px silver;
+  padding: 1.1em 6em 1em 3em;
+  background: white;
+  font-size: 1.1em;
+  font-family: var(--main-font);
+  font-weight: var(--main-font-weight);
+  color: var(--clr-font-main);
+  border: 0;
+  width: 100%;
+  appearance: none;
+}
+
+.custom-select {
+  position: relative;
+  margin: 1em 0em 1em 1.5em;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background: whitesmoke;
+  height: 100%;
+  width: 4em;
+  pointer-events: none;
+}
+
+.custom-arrow::before,
+.custom-arrow::after {
+  --size: 0.65em;
+
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-arrow::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid var(--clr-font-main);
+
+  top: 35%;
+}
+.custom-arrow::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid var(--clr-font-main);
+
+  top: 65%;
+}
+
+
+/** Add to Cart Button **/
+
+.productinfo button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  margin: 0em 0em 1em 1.25em;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 95%;
+  font-size: 1.1em;
+}
+
+/** Product Details **/
 
 .productinfo details {
   border: none;
@@ -392,3 +475,6 @@ footer section ul li {
 footer section ul li:hover {
   color: var(--clr-hover);
 }
+
+/** TRIAL **/
+
