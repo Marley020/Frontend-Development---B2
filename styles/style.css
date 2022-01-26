@@ -1,32 +1,25 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
-}
-
-*{
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
 }
 
-*:focus {
-  outline: 4px solid lightskyblue;
-  padding: 2px;
-}
+:root {
+  --clr-bg: white;
+  --clr-font-main: rgb(60, 60, 60);
+  --clr-hover: red;
 
-*:hover {
-  outline: 4px solid lightgreen;
-  padding: 2px;
-}
+  --main-font: 'Helvetica Neue', sans-serif;
+  --main-font-weight: bold;
 
-*:active {
-  outline: 4px solid lightseagreen;
-  padding: 2px;
+  --fallback-font: 'Helvetica';
 }
 
 body {
-  background-color: white;
+  background-color: var(--clr-bg);
 }
 
 
@@ -60,7 +53,7 @@ header section div {
 /** Header Hamburger Menu **/
 
 header > nav:first-of-type {
-  background-color: white;
+  background-color: var(--clr-bg);
   position: fixed;
   z-index: 10;
   width: 20em;
@@ -77,10 +70,10 @@ header > nav:first-of-type li {
 }
 
 header > nav:first-of-type li a{ 
-  color: rgb(60, 60, 60);
-  font-family: 'Helvetica Neue', sans-serif;
+  color: var(--clr-font-main);
+  font-family: var(--main-font);
   font-size: x-large;
-  font-weight: bold;
+  font-weight: var(--main-font-weight);
   text-decoration: none;
 }
 
@@ -105,16 +98,16 @@ header > nav:nth-of-type(2) ul {
 header > nav:nth-of-type(2)  ul li a {
 	white-space: nowrap;
   color: silver;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: var(--main-font);
   font-size: large;
-  font-weight: bold;
+  font-weight: var(--main-font-weight);
   text-decoration: none;
 }
 
 /** Header Search Bar **/
 
 header > form {
-  background-color: white;
+  background-color: var(--clr-bg);
   position: fixed;
   z-index: 10;
   width: 25em;
@@ -127,7 +120,7 @@ header > form {
 
 header > form img {
   position: fixed;
-  background-color: white;
+  background-color: var(--clr-bg);
   margin-top: -5.5em;
   width: 2em;
 }
@@ -143,9 +136,9 @@ header > form input {
 
 header > form input::placeholder {
   color: gainsboro;
-  font-family: 'Helvetica Neue' sans-serif;
+  font-family: var(--main-font);
   font-size: 2em;
-  font-weight: bold;
+  font-weight: var(--main-font-weight);
 }
 
 header > form.viewsearch {
@@ -168,7 +161,7 @@ header > fieldset {
 
 header > fieldset img {
   position: fixed;
-  background-color: white;
+  background-color: var(--clr-bg);
   margin-top: -9em;
   margin-left: 20em;
   width: 2em;
@@ -179,9 +172,9 @@ header > fieldset legend {
   width: 100%;
   padding: 1em 2em 2em 1em;
   border: none;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: var(--main-font);
   font-size: 2.5em;
-  font-weight: bold;
+  font-weight: var(--main-font-weight);
   color: white;
 }
 
@@ -189,9 +182,9 @@ header > fieldset label {
   display: flex;
   justify-content: center;
   margin-top: 50%;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: var(--main-font);
   font-size: 1.875em;
-  font-weight: bold;
+  font-weight: var(--main-font-weight);
   color: white;
 }
 
@@ -216,6 +209,23 @@ header > fieldset.viewbag {
 main div img {
   width: 100%;
   padding: 1em 0em 1em 0em;
+}
+
+main div p a:first-of-type {
+  background-color: rgb(60, 60, 60);
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: var(--main-font);
+  font-weight: var(--main-font-weight);
+  padding: 1em;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+main div p a:hover {
+  color: var(--clr-hover);
 }
 
 @media screen and (min-width: 700px) {
@@ -244,10 +254,10 @@ main div img {
   box-sizing: border-box;
   margin: -1.1em 0.7em 0 0.7em;
   background-color: transparent;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: var(--main-font);
   font-size: 2.5em;
   font-stretch: condensed;
-  color: rgb(60, 60, 60);
+  color: var(--clr-font-main);
 }
 
 .productview img {
@@ -276,9 +286,9 @@ main div img {
 
 .productinfo h2 {
   display: inline;
-  font-family: 'Helvetica Neue' sans-serif;
+  font-family: var(--main-font);
   font-weight: lighter;
-  color: rgb(60, 60, 60);
+  color: var(--clr-font-main);
   margin: 1em 0 1em 1.2em;
 }
 
@@ -290,8 +300,8 @@ main div img {
 .productinfo details summary {
   display: inline;
   border-bottom: 1px solid silver;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
+  font-family: var(--main-font);
+  font-weight: var(--main-font-weight);
   width: 20em;
   margin: 0 0 0 0.5em;
   padding: 0.5em 0.5em 1em 0.5em;
@@ -299,14 +309,14 @@ main div img {
 
 .productinfo details p {
   display: inline-block;
-  font-family: 'Helvetica Neue', sans-serif;
-  color: rgb(60, 60, 60);
+  font-family: var(--main-font);
+  color: var(--clr-font-main);
   padding: 0.5em 1em 0.5em 1em;
 }
 
 .productinfo details ul {
-  font-family: 'Helvetica Neue', sans-serif;
-  color: rgb(60, 60, 60);
+  font-family: var(--main-font);
+  color: var(--clr-font-main);
   list-style-type: circle;
   margin-left: 2em;
 }
@@ -347,9 +357,9 @@ footer section span {
 
 footer section form label {
   color: white;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: var(--main-font);
   font-size: x-large;
-  font-weight: bold;
+  font-weight: var(--main-font-weight);
   padding: 2em 0 0 0;
 }
 
@@ -371,14 +381,14 @@ footer section ul li {
   display: flex;
   list-style-type: none;
   color: whitesmoke;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: var(--main-font);
   font-size: medium;
-  font-weight: bold;
+  font-weight: var(--main-font-weight);
   text-decoration: none;
   margin: 0 0 1em 0;
   transition: .5s;
 }
 
-footer section ul li:hover{
-  color: red;
+footer section ul li:hover {
+  color: var(--clr-hover);
 }
