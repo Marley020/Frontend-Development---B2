@@ -91,7 +91,7 @@ header > nav:nth-of-type(2) ul {
 	flex-wrap: nowrap;
 	list-style: none;
 	margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 	padding: 1em;
   overflow-x: auto;
   flex-shrink: 0;
@@ -202,10 +202,10 @@ header > fieldset.viewbag {
 .row {
   display: flex;
   flex-wrap: wrap;
-
+  flex-direction: row;
 }
 
-.first {
+main div {
   flex: 70%;
   padding: 0em;
 }
@@ -213,6 +213,24 @@ header > fieldset.viewbag {
 main div img {
   width: 100%;
   padding: 1em 0em 1em 0em;
+}
+
+.img2 {
+  width: 80%;
+}
+
+.img3 {
+  width: 80%;
+  margin: 0 0 0 5em;
+}
+
+.img6 {
+  width: 80%;
+}
+
+.img7 {
+  width: 80%;
+  margin: 0 0 0 5em;
 }
 
 main div p a:first-of-type {
