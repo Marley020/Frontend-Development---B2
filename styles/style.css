@@ -300,7 +300,7 @@ main div p a:hover {
 
 .productinfo em {
   position: absolute;
-  top: 1;
+  top: 1em;
   right: 0;
   background: black;
   font-family: var(--main-font);
