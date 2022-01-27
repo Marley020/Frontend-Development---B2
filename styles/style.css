@@ -281,6 +281,7 @@ main div p a:hover {
 /** Product Main Info **/
 
 .productinfo {
+  position: relative;
   flex: 50%;
   max-width: 100%;
   display: flex;
@@ -294,7 +295,19 @@ main div p a:hover {
   font-family: var(--main-font);
   font-weight: 400;
   color: var(--clr-font-main);
-  margin: 1em 0 1em 1.2em;
+  margin: 0 0 0 1.2em;
+}
+
+.productinfo em {
+  position: absolute;
+  top: 1;
+  right: 0;
+  background: black;
+  font-family: var(--main-font);
+  font-weight: var(--main-font-weight);
+  color: white;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  width: fit-content;
 }
 
 
@@ -315,7 +328,7 @@ select {
 
 .custom-select {
   position: relative;
-  margin: 1em 0em 1em 1.5em;
+  margin: 2em 0em 1em 1.5em;
 }
 
 .custom-arrow {
@@ -364,7 +377,7 @@ select {
   border: none;
   outline: 0;
   padding: 12px;
-  margin: 0em 0em 1em 1.25em;
+  margin: 0em 0em 2em 1.25em;
   color: white;
   background-color: #000;
   text-align: center;
