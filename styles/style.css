@@ -232,6 +232,13 @@ main div img {
   padding: 1em 0em 1em 0em;
 }
 
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 .img2 {
   width: 80%;
 }
@@ -255,6 +262,13 @@ main div img {
   margin: 0 0 0 5em;
 }
 
+.img8 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
 .img9 {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -270,6 +284,47 @@ main div img {
   width: 80%;
   margin: 1em 0 1em 5em;
 }
+
+.img11 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+  margin: 1em 0 1em 0;
+}
+
+.img12 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+  margin: 1em 0 1em 5em;
+}
+
+.img13 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.img14 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.img15 {
+  margin: 1em 0 1em 0;
+}
+
 
 main div figcaption {
   font-family: var(--main-font);
