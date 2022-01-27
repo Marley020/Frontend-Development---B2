@@ -208,7 +208,7 @@ header > fieldset.viewbag {
 main div {
   flex: 70%;
   padding: 0em;
-  margin: 0 0 1em 0;
+  margin: 0 0 2em 0;
 }
 
 main div p a:first-of-type {
@@ -242,11 +242,12 @@ main div img {
 
 .img2 {
   width: 80%;
+  margin-top: 1em;
 }
 
 .img3 {
   width: 80%;
-  margin: 0 0 0 5em;
+  margin: 1em 0 0 5em;
 }
 
 .img4 {
@@ -260,13 +261,15 @@ main div img {
 
 .img7 {
   width: 80%;
-  margin: 0 0 0 5em;
+  margin: 1em 0 1em 5em;
 }
 
 .img8 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
   width: 85%;
 }
 
@@ -275,7 +278,7 @@ main div img {
   border-radius: 4px;
   padding: 5px;
   width: 80%;
-  margin: 1em 0 1em 0;
+  margin: 1.5em 0 1em 0;
 }
 
 .img10 {
@@ -283,7 +286,7 @@ main div img {
   border-radius: 4px;
   padding: 5px;
   width: 80%;
-  margin: 1em 0 1em 5em;
+  margin: 1.5em 0 1em 5em;
 }
 
 .img11 {
@@ -291,7 +294,7 @@ main div img {
   border-radius: 4px;
   padding: 5px;
   width: 80%;
-  margin: 1em 0 1em 0;
+  margin: 1.5em 0 1em 0;
 }
 
 .img12 {
@@ -299,13 +302,14 @@ main div img {
   border-radius: 4px;
   padding: 5px;
   width: 80%;
-  margin: 1em 0 1em 5em;
+  margin: 1.5em 0 1em 5em;
 }
 
 .img13 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1em;
   width: 95%;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -316,6 +320,7 @@ main div img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
   width: 95%;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -323,7 +328,7 @@ main div img {
 }
 
 .img15 {
-  margin: 1em 0 1em 0;
+  margin: 1em 0 0 0;
 }
 
 
