@@ -300,13 +300,14 @@ main div p a:hover {
 
 .productinfo em {
   position: absolute;
-  top: 1em;
+  top: 0;
   right: 0;
   background: black;
   font-family: var(--main-font);
   font-weight: var(--main-font-weight);
   color: white;
   padding: 0.25em 0.5em 0.25em 0.5em;
+  margin-top: 1em;
   width: fit-content;
 }
 
