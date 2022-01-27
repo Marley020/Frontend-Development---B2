@@ -208,6 +208,7 @@ header > fieldset.viewbag {
 main div {
   flex: 70%;
   padding: 0em;
+  margin: 0 0 1em 0;
 }
 
 main div p a:first-of-type {
@@ -328,6 +329,7 @@ main div img {
 
 main div figcaption {
   font-family: var(--main-font);
+  color: var(--clr-font-main);
 }
 
 @media screen and (min-width: 700px) {
