@@ -542,23 +542,24 @@ footer section {
 footer section span {
   display: flex;
   justify-content: center;
-  margin-left: -1em;
-  margin-bottom: 1em;
+  margin-right: 2em;
+  margin-bottom: 2em;
 }
 
 .logo2 {
   width: 12em;
 }
 
-footer section form label {
+footer section fieldset label {
   color: white;
   font-family: var(--main-font);
   font-size: x-large;
   font-weight: var(--main-font-weight);
   padding: 2em 0 0 0;
+  margin: 1em 1em 0 0;
 }
 
-footer section form input {
+footer section fieldset input {
   background-color: transparent;
   color: silver;
   margin: 2em 0 4em 0;
@@ -575,15 +576,18 @@ footer section ul {
 footer section ul li {
   display: flex;
   list-style-type: none;
-  color: whitesmoke;
   font-family: var(--main-font);
   font-size: medium;
   font-weight: var(--main-font-weight);
+}
+
+footer section ul li a {
+  color: whitesmoke;
   text-decoration: none;
   margin: 0 0 1em 0;
   transition: .5s;
 }
 
-footer section ul li:hover {
+footer section ul li a:hover {
   color: var(--clr-hover);
 }
