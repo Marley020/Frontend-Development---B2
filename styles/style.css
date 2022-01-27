@@ -328,8 +328,11 @@ main div img {
 
 
 main div figcaption {
+  display: flex;
+  justify-content: center;
   font-family: var(--main-font);
   color: var(--clr-font-main);
+  margin: auto;
 }
 
 @media screen and (min-width: 700px) {
